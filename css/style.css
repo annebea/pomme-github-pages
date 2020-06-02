@@ -7,7 +7,7 @@
 }
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -175,7 +175,7 @@ figure {
 }
 .fh5co-cover .desc i{
 
-  
+
 
   color: #ddd;
 }
@@ -792,7 +792,7 @@ figure {
   letter-spacing: 2px;
   font-size: 13px;
   color: rgba(255, 255, 255, 0.7);
-  
+
 }
 
 #fh5co-portfolio-list li a .case-studies-summary h2 {
@@ -1748,3 +1748,20 @@ i.icon-facebook2 {
 
 
 /*# sourceMappingURL=style.css.map */
+
+/*added by Anne*/
+
+iframe {
+  border: none;
+  background-color: white;
+}
+
+.switcherOuter {
+}
+
+tr {
+}
+
+tbody:last-child {
+  display: none;
+}
