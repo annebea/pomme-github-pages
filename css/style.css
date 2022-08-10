@@ -185,6 +185,14 @@ figure {
     padding-right: 15px;
   }
 }
+
+@media screen and (max-width: 1300px) {
+  .fh5co-cover .desc {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
 .fh5co-cover .desc h2 {
   color: #fff;
   text-transform: uppercase;
