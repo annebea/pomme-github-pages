@@ -220,6 +220,12 @@ figure {
     margin-bottom: 120px;
   }
 }
+@media screen and (max-width: 1300px) {
+  .fh5co-cover .desc h3 {
+    margin-bottom: 100px;
+  }
+}
+
 .fh5co-cover .desc h7 strong {
   font-weight: 700;
 }
