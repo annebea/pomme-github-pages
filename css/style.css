@@ -203,7 +203,6 @@ figure {
 .fh5co-cover .desc h7 {
   color: #fff;
   font-size: 24px;
-  margin-bottom: 20px;
   font-weight: 300 !important;
 }
 .fh5co-cover .desc h2 strong {
@@ -218,7 +217,7 @@ figure {
 @media screen and (max-width: 768px) {
   .fh5co-cover .desc h3 {
     font-size: 20px;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
   }
 }
 .fh5co-cover .desc h7 strong {
