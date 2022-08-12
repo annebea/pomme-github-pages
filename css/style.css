@@ -1791,14 +1791,6 @@ iframe {
   background-color: white;
 }
 
-iframe #sheets-viewport {
-  display: none;
-  height: 0;
-}
-
-tr {
-}
-
 tbody:last-child {
   display: none;
 }
