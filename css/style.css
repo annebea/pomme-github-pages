@@ -1791,7 +1791,8 @@ iframe {
   background-color: white;
 }
 
-.switcherOuter {
+iframe td:has(>.switcherOuter) {
+  display: none;
 }
 
 tr {
