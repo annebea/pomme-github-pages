@@ -173,6 +173,8 @@ figure {
   margin-top: -80px;
   z-index: 2;
   color: #fff;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 .fh5co-cover .desc i{
   color: #ddd;
