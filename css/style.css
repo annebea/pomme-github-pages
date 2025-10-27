@@ -1800,15 +1800,17 @@ tbody:last-child {
 }
 
 .encart-accueil {
-  margin: 20px 0;
-  padding: 15px 25px;
-  background-color: #fff8e1; /* jaune clair */
-  border: 1px solid #f1c40f;
-  border-radius: 12px;
-  text-align: center;
-  font-size: 1.1em;
-  font-weight: 500;
-  color: #5a4633;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 550px;               /* un peu moins large pour rester harmonieux */
+  margin: 25px auto;             /* centré avec un peu plus d’espace au-dessous et au-dessus */
+  padding: 18px 25px;            /* marge interne confortable */
+  background-color: #fafaf8;     /* fond très clair, proche du blanc cassé */
+  border: 1px solid #e2dcd5;     /* bord discret, couleur neutre douce */
+  border-radius: 10px;           /* coins légèrement arrondis */
+  text-align: center;            
+  font-size: 1.35em;             /* texte plus grand que par défaut */
+  font-weight: 500;              /* poids moyen pour bonne lisibilité */
+  color: #3a2e24;                 /* couleur du texte : brun-foncé dans l’esprit “verger” */
+  line-height: 1.45;              /* hauteur de ligne confortable */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08); /* ombre légère pour effet “carte posée” */
 }
 
