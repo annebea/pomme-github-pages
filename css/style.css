@@ -1809,7 +1809,7 @@ tbody:last-child {
   text-align: center;            
   font-size: 1.35em;             /* texte plus grand que par défaut */
   font-weight: 500;              /* poids moyen pour bonne lisibilité */
-  color: #3a2e24;                 /* couleur du texte : brun-foncé dans l’esprit “verger” */
+  color: #ef6249;                 /* couleur du texte : brun-foncé dans l’esprit “verger” */
   line-height: 1.45;              /* hauteur de ligne confortable */
   box-shadow: 0 2px 4px rgba(0,0,0,0.08); /* ombre légère pour effet “carte posée” */
 }
