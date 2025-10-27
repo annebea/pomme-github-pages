@@ -1798,3 +1798,17 @@ iframe {
 tbody:last-child {
   display: none;
 }
+
+.encart-accueil {
+  margin: 20px 0;
+  padding: 15px 25px;
+  background-color: #fff8e1; /* jaune clair */
+  border: 1px solid #f1c40f;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: 500;
+  color: #5a4633;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
