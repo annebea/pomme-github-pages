@@ -103,7 +103,7 @@ figure {
 .fh5co-cover,
 .fh5co-hero {
   position: relative;
-  height: 800px;
+  height: 1200px;
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover,
@@ -1812,5 +1812,19 @@ tbody:last-child {
   color: #ef6249;                 /* couleur du texte : brun-foncé dans l’esprit “verger” */
   line-height: 1.45;              /* hauteur de ligne confortable */
   box-shadow: 0 2px 4px rgba(0,0,0,0.08); /* ombre légère pour effet “carte posée” */
+  margin-bottom: 100px
 }
 
+/* Règle spécifique à la page d'accueil */
+#page-contact.fh5co-hero {
+  height: 1200px; /* version desktop */
+  top: 30% /*remontetout le contenu de la cover*/
+}
+
+/* Responsive (tablettes et mobiles) */
+@media screen and (max-width: 768px) {
+  #page-contact.fh5co-hero {
+    height: 1200px; /* tu ajustes selon ton design */
+      top: 30% /*remontetout le contenu de la cover*/
+  }
+}
