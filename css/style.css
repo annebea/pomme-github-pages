@@ -1818,13 +1818,13 @@ tbody:last-child {
 /* Règle spécifique à la page d'accueil */
 #page-contact.fh5co-hero {
   height: 1200px; /* version desktop */
-  top: 30% /*remontetout le contenu de la cover*/
+  top: -20% /*remontetout le contenu de la cover*/
 }
 
 /* Responsive (tablettes et mobiles) */
 @media screen and (max-width: 768px) {
   #page-contact.fh5co-hero {
     height: 1200px; /* tu ajustes selon ton design */
-      top: 30% /*remontetout le contenu de la cover*/
+      top: -40% /*remontetout le contenu de la cover*/
   }
 }
