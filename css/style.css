@@ -1817,7 +1817,8 @@ tbody:last-child {
 
 /* Règle spécifique à la page d'accueil */
 .page-accueil .fh5co-cover,
-.page-accueil .fh5co-hero {
+.page-accueil .fh5co-hero,
+.page-accueil .fh5co-overlay {
   height: 1200px; /* version desktop */
   top: -20% /*remontetout le contenu de la cover*/
 }
@@ -1825,8 +1826,9 @@ tbody:last-child {
 /* Responsive (tablettes et mobiles) */
 @media screen and (max-width: 768px) {
   .page-accueil .fh5co-cover,
-  .page-accueil .fh5co-hero {
+  .page-accueil .fh5co-hero,
+  .page-accueil .fh5co-overlay {
     height: 1200px; /* tu ajustes selon ton design */
-      top: -40% /*remontetout le contenu de la cover*/
+      top: -35% /*remontetout le contenu de la cover*/
   }
 }
